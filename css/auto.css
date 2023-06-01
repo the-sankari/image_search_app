@@ -1,0 +1,137 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  #profile_name h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: #eaeaea;
+  }
+  
+/* Main content styles */
+#main_container {
+    min-height: calc(100vh - 150px); /* Adjust this value to accommodate the footer */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .site {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
+  .site:hover {
+    transform: translateY(-5px);
+  }
+  
+  .site a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .siteImage {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  #footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #footer_container a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  #footer_container a:hover {
+    color: #eaeaea;
+  }
+  
+  #footer_container p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #contact {
+    display: flex;
+  }
+  
+  #media ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  #media ul li {
+    margin-right: 10px;
+  }
+  
+  #media ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  #media ul li a:hover {
+    color: #eaeaea;
+  }
+  
+  
